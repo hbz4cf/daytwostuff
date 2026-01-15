@@ -67,6 +67,14 @@ title: Day Two Stuff
 ### Recipe
 1. Write yourself a step by step recipe for creating a new working project environment
     You don't need to include "loading data"
+# Recipe for creating a new working project environment:
+# 1. Fork or clone the GitHub repo
+# 2. Open in Codespaces (or local VS Code)
+# 3. Create a virtual environment: python -m venv env
+# 4. Activate virtual environment: source env/bin/activate (Linux/Mac) or .\env\Scripts\activate (Windows)
+# 5. Install required packages: pip install -r requirements.txt
+# 6. Verify the environment works by running a test .py file
+
 2. Create a new working project environment using these steps. 
 
 ### Submit to canvas
