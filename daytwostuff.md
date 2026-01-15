@@ -23,8 +23,8 @@ title: Day Two Stuff
 1. open a bash terminal 
 2. type the command for creating a virtual environment
 3. make sure the environment is activated
-4. Should you include the environment in your repo or not?  
-5. Now what is your terminal display "path"? Is it different? 
+4. Should you include the environment in your repo or not?  No
+5. Now what is your terminal display "path"? Is it different? /workspaces/daytwostuff, No
 
 ### Load/(create if needed) the requirements.txt file
 1. use the correct terminal commands to load the requirements file into your virtual environment
@@ -36,8 +36,14 @@ title: Day Two Stuff
 
 ### Extension Management
 1. You've possibilly added a new extension, hopefully it was Data Wrangler, if not search and add it
-2. Find the extension in the extension menu. What do you notice about the extension menu? 
+2. Find the extension in the extension menu. What do you notice about the extension menu?
+# VS Code shows all installed extensions, some built-in, some user-installed, and you can enable/disable or uninstall extensions from here. 
 3. Review the capabilities, what are three useful elements of Data Wrangler
+# Data Wrangler useful features:
+# 1. Easily clean and transform CSV or tabular data without writing code
+# 2. Can preview and filter data interactively
+# 3. Exports cleaned data as Python/pandas code automatically
+
 
 ### Package managing
 1. Install plotly in the terminal
@@ -45,6 +51,11 @@ title: Day Two Stuff
 3. Add plotly to your requirements file using terminal commands
 4. Then update the requirements document
 5. Why do we use a requirements.txt file?
+# requirements.txt is used to:
+# 1. Ensure anyone running the project has the exact packages needed
+# 2. Make the project reproducible
+# 3. Keep track of dependencies for collaboration and deployment
+
 
 ### Pip Freeze/(create if needed) the requirements.txt file
 1. use the correct terminal commands to update your requirements.txt file
